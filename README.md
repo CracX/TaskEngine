@@ -1,4 +1,5 @@
 # Task Engine - A simple block-by-block code execution framework
+![PythonLanguage]({https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen})
 
 Task engine takes all the complicated or redundant aspects of programming and compiles tem into a bite-sized pieces. Task engine provides a simple way of coding stuff like website parsers, Filetype to Filetype converters, automated task execution, etc.
 
