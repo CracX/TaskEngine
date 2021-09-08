@@ -65,7 +65,7 @@ class Gear:
         """
         _err = GearError(self._gear_name, message)
         self._on_error(_err)
-        return GearError(_err)
+        return _err
     
     def log(self, message: str) -> None:
         """
