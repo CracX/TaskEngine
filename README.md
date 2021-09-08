@@ -1,7 +1,7 @@
 # Task Engine - A simple block-by-block code execution framework
 [![Generic badge](https://img.shields.io/badge/Version-0.0.1.DEV-yellow.svg)](https://github.com/CracX/TaskEngine)
 
-Task engine takes all the complicated or redundant aspects of programming and compiles tem into a bite-sized pieces. Task engine provides a simple way of coding stuff like website parsers, Filetype to Filetype converters, automated task execution, etc.
+Task engine takes all the complicated or redundant aspects of programming and compiles them into a bite-sized pieces. Task engine provides a simple way of coding stuff like website parsers, Filetype to Filetype converters, automated task execution, etc.
 
 Task engine is based on the python language - an easy to understand scripting language. But to work with this framework, you dont need any python programming skills, as all the functions have been converted into instruction blocks called "gears". These gears get placed syde-by-side and then compiled into a "gearset". Gearsets are collections of gears that then get executed one-by-one, feeding the previous gears' input into the next one.
 
