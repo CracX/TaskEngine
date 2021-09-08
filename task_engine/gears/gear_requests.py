@@ -11,7 +11,11 @@ class GearRequestsGet(Gear):
     def _execute(self, params: dict) -> Union[dict, GearError]:
         if 'requests_url' not in params:
             return self.error("'requests_url' param not in params.")
-        requests_obj = requests.get(params['requests_url'])
+
+        cookies = {} if 'requests_cookies' not in params else params['requests_cookies'] 
+        headers = {} if 'requests_headers' not in params else params['requests_headers'] 
+
+        requests_obj = requests.get(params['requests_url'], cookies=cookies, headers=headers)
 
         new_params = params
         new_params.update({
