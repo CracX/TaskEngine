@@ -12,5 +12,8 @@ Task engine does not require any prior programming, software developement or eng
 
 I myself created this engine to not rewrite already written code for all my mini-projects like website scrapers. Before, I needed to write each script for specific website and then tweak the code for it's specific needs. But now I can just change 1-2 things in config files and the engine can parse these sites without any problem.
 
+## Contributors
+[![Generic badge](https://img.shields.io/badge/narukoshin-Language_Proofing-green.svg)](https://github.com/narukoshin)
+
 ## Team
 For now I, CracX, work alone, but I do love contributors!
