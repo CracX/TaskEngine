@@ -3,7 +3,7 @@ from typing import Union
 class GearError:
     """
     Class for gears to return errors. This object is exclusevly used by Gears.
-    Whenever a gear fails to execute it's code, it is going to return a GearError object.s
+    Whenever a gear fails to execute it's code, it is going to return a GearError object.
     """
     def __init__(self, gear_name, message) -> None:
         self._gear_name = gear_name
