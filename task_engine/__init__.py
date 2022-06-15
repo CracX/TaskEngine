@@ -50,7 +50,7 @@ class TaskEngine:
     
     def set_params(self, params: dict) -> dict:
         """
-        Rewrites the current engine parameters with te newly provided ones.
+        Rewrites the current engine parameters with the newly provided ones.
         """
         self._initial_parameters = params
         return self._initial_parameters
